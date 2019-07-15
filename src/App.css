@@ -1,0 +1,16 @@
+.App {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (min-width: 600px) {
+  .App {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 100vh;
+  }
+}

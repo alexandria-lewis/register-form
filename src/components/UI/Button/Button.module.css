@@ -1,0 +1,23 @@
+.Button, .Button[type="submit"] {
+    background-color: #3372cc;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px auto;
+    font-weight: bold;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.Button:hover, .Button[type="submit"]:hover {
+    background-color: #b5e7ff;
+    color: #000;
+}
+
+.Button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

@@ -1,0 +1,16 @@
+.Providers {
+    width: 100vw;
+    background: linear-gradient(120deg, rgba(51,114,204,1) 0%, rgba(181,231,255,1) 100%);
+    color: #fff;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+    .Providers {
+        display: inline-block;
+        width: 40%;
+        height: 100%;
+        vertical-align: top;
+    }
+}
